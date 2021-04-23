@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "heroku-postbuild": "npm run build",
     "server": "json-server server.json -w -d -p 3333"
   },
   "dependencies": {
