@@ -1,1 +1,0 @@
-# Primeiro programa feito em next.js
