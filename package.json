@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build",
-    "server": "json-server server.json -w -d -p 3333"
+    "server": "json-server db.json -w -d -p 3333"
   },
   "dependencies": {
     "@types/node": "^14.14.41",
