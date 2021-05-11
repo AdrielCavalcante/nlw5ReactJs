@@ -27,7 +27,7 @@
             align-items: center;
 
             img{
-                min-width: 6rem;
+                width: 6rem;
                 height: 6rem;
                 border-radius: 1rem;
             }
@@ -100,7 +100,7 @@
                 transition: 0.2s; 
 
                 img{
-                    min-width: 1.5rem;
+                    width: 1.5rem;
                     height: 1.5rem;
 
                 }
@@ -172,6 +172,14 @@
                         filter: brightness(0.95);
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1666px) {
+    .latestEpisodes{
+        ul{
+            grid-template-columns: 1fr;
         }
     }
 }

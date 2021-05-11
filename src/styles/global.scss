@@ -19,26 +19,23 @@
     --purple-400: #9164FA; 
     --purple-500: #8257E5;
     --purple-800: #6F48C9;
+
+    --black: #282c34;
+    --dark: #1f1f1f;
   }
 
-@media (max-width: 1080px){
+@media (max-width: 1466px){
     html{
         font-size: 93.75%; //15px
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 1280px){
     html{
         font-size: 87.5%; //14px
     }
 }
 
-@media (max-width: 1366px) {
-    html {
-      max-width: 1366px;
-      font-size: 80%;
-    }
-  }
 
 body{
     background-color: var(--gray-50);
